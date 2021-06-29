@@ -60,8 +60,8 @@ header {
     align-items: center;
 }
 
-.container nav .left img {
-    width: 12rem;
+.container nav .left .branding img {
+    width: 140px;
 }
 
 .container nav .left .linkss a {

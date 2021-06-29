@@ -19,10 +19,11 @@
     .branding {
         position: absolute;
         top: 20px;
-        left: 31%;
-        width: 1rem;
+        left: 40%;
     }
-
+    .container nav .left .branding img{
+        width: 80px;
+    }
     #iconbar:hover {
         color: #3DCFD3;
     }
@@ -132,8 +133,7 @@
 
     .section-heading {
         margin-top: 0;
-        font-size: 64px;
-        /*line-height: 80px;*/
+        font-size: 48px;
     }
 
     section.services .card-wrapper {
@@ -148,7 +148,7 @@
     }
 
     section.services .card-wrapper .body .card p {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .freelancer .oval {
@@ -183,11 +183,11 @@
 
 
     #scr4 h1 {
-        font-size: 64px;
+        font-size: 48px;
     }
 
     #scr5 h1 {
-        font-size: 64px;
+        font-size: 48px;
     }
 
     section.our-works .works {
