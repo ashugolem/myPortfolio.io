@@ -1,0 +1,615 @@
+:root {
+    --primary: #3DCFD3;
+    --dark: black;
+    --pure: white;
+    --ternary: #898989;
+    --light: #f2f2f2;
+    --secondary: #070606;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.leftt {
+    text-align: left;
+}
+
+.width {
+    max-width: 50%;
+}
+
+.svg3 {
+    margin-top: -40vh;
+}
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+}
+
+header {
+    background: var(--dark);
+    max-width: 100vw;
+}
+
+.container nav {
+    background: var(--dark);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+}
+
+.container .left {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container nav .left img {
+    width: 12rem;
+}
+
+.container nav .left .linkss a {
+    padding: 5px 40px;
+    font-size: 24px;
+    font-family: 'Lobster';
+    color: var(--pure);
+    text-decoration: none;
+}
+
+.right a {
+    font-family: 'Lobster';
+    color: var(--pure);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+.container nav .left .linkss {
+    padding: 0 12vw;
+}
+
+#iconbar {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+header nav .left .linkss a:hover {
+    color: var(--primary);
+    transition: all 0.5s;
+    box-shadow: 0rem 0.5rem 2rem 0rem #00ffff,
+        0rem 0.2rem 0.5rem 0rem #00ffff inset,
+        0rem 0.5rem 2rem 0rem #00ffff,
+        0rem 0.2rem 0.5rem 0rem #00ffff inset;
+    border-radius: 3rem;
+}
+
+.name {
+    padding-top: 1vw;
+    padding-bottom: 10vw;
+}
+
+.wave {
+    max-width: 100vw;
+    margin-top: -3vh;
+}
+
+.btn {
+    padding: 0.2rem 2rem;
+    margin-left: -3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0.2rem solid transparent;
+    border-radius: 3rem;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.btn-1 {
+    background: var(--primary);
+    color: var(--dark);
+}
+
+.btn-1:hover {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0rem 0.5rem 3rem 0rem #00ffff,
+        0rem 0.2rem 0.5rem 0rem #00ffff inset,
+        0rem 0.5rem 3rem 0rem #00ffff,
+        0rem 0.2rem 0.5rem 0rem #00ffff inset;
+}
+
+.dis {
+    display: flex;
+    margin-top: -10vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container .hero {
+    background: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+.container .hero .right1 {
+    color: var(--pure);
+}
+
+.container .hero .right1 h3 {
+    text-align: center;
+}
+
+.container .hero img {
+    max-width: 36vw;
+}
+
+.container .hero .right1 {
+    margin-top: 5rem;
+}
+
+.container .hero h1 {
+    color: var(--pure);
+    font-size: 5rem;
+    text-align: right;
+    margin-bottom: 5vh;
+}
+
+.container {
+    max-width: 70%;
+}
+
+.container .hero h1 span {
+    color: var(--primary);
+}
+
+.container .hero h3 {
+    color: var(--pure);
+    font-family: 'Dancing Script';
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    position: relative;
+    left: -13vw;
+    bottom: 1vh;
+    text-shadow: 2px 2px solid #00ffff;
+}
+
+.container .hero .right1 p {
+    line-height: 1.9;
+    font-size: 1.2rem;
+    font-weight: 50;
+    margin-top: 10vh;
+    max-width: 30vw;
+    text-align: center;
+    position: relative;
+    bottom: -5vw;
+    right: -5vw;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-secondary:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: 0rem 0.5rem 3rem 0rem #00ffff,
+        0rem 0.2rem 0.5rem 0rem #00ffff inset,
+        0rem 0.5rem 3rem 0rem #00ffff,
+        0rem 0.2rem 0.5rem 0rem #00ffff inset;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutt {
+    width: 70vw;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-pic {
+    width: 30vw;
+    height: 100vh;
+    margin-top: -10vh;
+    margin-left: -5vw;
+}
+
+#about-me {
+    color: var(--dark);
+    font-size: 8rem;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: var(--primary);
+    font-family: 'Lobster', sans-serif;
+}
+
+#about-me span {
+    color: var(--primary);
+
+}
+
+.about-me {
+    margin-top: 5rem;
+}
+
+.about .about-me h3 {
+    font-size: 2rem;
+    margin-bottom: 10vh;
+
+}
+
+.about .about-me h3 span {
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 0.1rem;
+    padding-left: 1vw;
+}
+
+.about .about-me p {
+    line-height: 1.4;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 1500px;
+    text-align: center;
+    color: var(--ternary);
+}
+
+.about .about-me h4 {
+    font-size: 2rem;
+    margin-top: 5rem;
+    font-family: 'Lobster', sans-serif;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: var(--ternary);
+    color: var(--ternary);
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5vh 20vw;
+}
+
+.icons .a {
+    padding: 0 16px;
+    font-size: 48px;
+    color: blue;
+}
+
+.icons .b {
+    padding: 0 16px;
+    font-size: 48px;
+    color: #e1306c;
+}
+
+.icons .c {
+    padding: 0 16px;
+    font-size: 48px;
+    color: #1aa3ff;
+}
+
+.icons .a:hover {
+    transform: rotateZ(360deg);
+    transition: 2s;
+}
+
+.icons .b:hover {
+    transform: rotateZ(360deg);
+    transition: 2s;
+}
+
+.icons .c:hover {
+    transform: rotateZ(360deg);
+    transition: 2s;
+}
+
+.svg1 {
+    margin-bottom: -250px;
+}
+
+.services .container {
+    align-items: center;
+    width: 100vw;
+    padding-top: 20vh;
+}
+
+.section-heading {
+    color: var(--pure);
+    text-align: center;
+    margin-top: 5vh;
+    line-height: 0.5;
+    font-size: 7rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+    padding-bottom: 4vh;
+}
+
+.section-heading span {
+    color: var(--primary);
+}
+
+.services .container h3 {
+    color: var(--ternary);
+    font-family: 'Lobster', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 400;
+}
+
+section.services {
+    background: url(back4jpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+section.services .card-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 96px;
+}
+
+section.services .card-wrapper .card p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#service {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 1.5vw;
+    color: white;
+}
+/*section.services .card-wrapper .body p{
+    margin-left: -100px;
+}*/
+section.services .card-wrapper .body .card p {
+    color: var(--primary);
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+section.services .card-wrapper .card {
+    width: 320px;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+    background: linear-gradient(-50deg, rgba(237, 21, 201, 1), blue);
+    -webkit-border-radius: 64px;
+    /*background: -webkit-linear-gradient(-50deg, rgba(237, 21, 201, 1) 0, rgba(193, 36, 128, 1) 0, rgba(40, 45, 145, 1) 100%);
+    background: -moz-linear-gradient(140deg, rgba(237, 21, 201, 1) 0, rgba(193, 36, 128, 1) 0, rgba(40, 45, 145, 1) 100%);
+    background: linear-gradient(140deg, rgba(237, 21, 201, 1) 0, rgba(193, 36, 128, 1) 0, rgba(40, 45, 145, 1) 100%);*/
+}
+
+
+section.freelancer {
+    text-align: center;
+    display: flex;
+    padding-bottom: 140px;
+    background: transparent;
+    justify-content: center;
+    /*align-content: center;*/
+    width: 100vw;
+    color: var(--pure);
+}
+
+section.freelancer h1 {
+    text-align: center;
+    margin-top: 96px;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+section.freelancer p {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5rem;
+}
+
+section.freelancer button {
+    position: relative;
+    bottom: -10vh;
+}
+
+.freelancer .oval {
+    align-items: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 75%;
+    height: 60vh;
+    border: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font: normal 77%/normal "Lobster", sans-serif;
+    font-weight: 100;
+    text-indent: 100px;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    word-spacing: 4px;
+    background: url(back1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 101% auto;
+    background-size: 101% auto;
+    -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 6px 8px 30px rgba(6, 185, 221, 0.7);
+    -webkit-transition: all 200ms cubic-bezier(0.705, -0.01, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.705, -0.01, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.705, -0.01, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.705, -0.01, 0.58, 1) 10ms;
+}
+
+section.our-works {
+    background: var(--light);
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 15rem;
+    width: 100vw;
+
+}
+
+section.our-works h1 {
+    font-size: 7rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+}
+
+section.our-works h1 span {
+    color: var(--primary);
+
+}
+
+section.our-works h3 {
+    color: var(--ternary);
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', sans-serif;
+    margin-bottom: 7rem;
+}
+
+section.our-works .works {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4rem;
+}
+
+
+
+section.our-works .works .work img {
+    width: 25vw;
+    border: 0.6rem solid var(--primary);
+    border-radius: 3rem;
+}
+
+section.my-degree {
+    padding: 10vh 0;
+}
+
+section.my-degree {
+    text-align: center;
+}
+
+section.my-degree h1 {
+    font-size: 7rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+    padding-bottom: 5vh;
+}
+
+section.my-degree h1 span {
+    color: var(--primary);
+}
+
+section.my-degree h3 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+}
+
+section.my-degree h4 {
+    font-size: 2rem;
+    color: red;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+section.my-degree h4 span {
+    color: var(--primary);
+}
+
+section.my-degree p {
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', sans-serif;
+
+}
+
+section.my-degree p span {
+    color: green;
+}
+
+section.my-degree h6 {
+    margin-top: -1rem;
+}
+
+.last-button {
+    text-decoration: none;
+    position: relative;
+    bottom: -15vh;
+    border-radius: 2rem;
+    border-style: double;
+    border-color: var(--primary);
+    background: var(--primary);
+    font-size: 2rem;
+    font-family: 'Lobster', sans-serif;
+}
+
+.last-button a {
+    text-decoration: none;
+    padding: 1px 1vw;
+    color: white;
+}
+
+.last-button:hover {
+    color: var(--dark);
+    background: #4d4d4d;
+    border-color: #4d4d4d;
+    box-shadow: 0rem 0.5rem 3rem 0rem #4d4d4d,
+        0rem 0.2rem 0.5rem 0rem #4d4d4d inset,
+        0rem 0.5rem 3rem 0rem #4d4d4d,
+        0rem 0.2rem 0.5rem 0rem #4d4d4d inset;
+}
+
+#last-contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+}
