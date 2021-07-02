@@ -135,7 +135,9 @@
         margin-top: 0;
         font-size: 48px;
     }
-
+    section.services {
+        background: url(back4jpg1.jpg);
+    }
     section.services .card-wrapper {
         grid-row-gap: 48px;
         margin: 48px;
@@ -159,13 +161,13 @@
     }
 
     section.freelancer h1 {
-        font-size: 24px;
+        font-size: 18px;
         margin-left: -100px;
     }
 
     section.freelancer p {
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 12px;
         margin-left: -100px;
     }
 
